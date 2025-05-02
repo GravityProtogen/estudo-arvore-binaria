@@ -12,6 +12,11 @@
 
 
 #Criando uma arvore
+#            2
+#          /   \
+#         3     4
+#        /
+#       5
 # Declaração os nós
 class No:
     def __init__(self, valor):
