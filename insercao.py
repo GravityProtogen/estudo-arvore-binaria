@@ -1,3 +1,7 @@
+#Inserção utiliza do mesmo codigo de BFS, porém adiciona:
+#- Se o filho esquerdo for None, insere o novo no left
+#- Se o filho direito for None, insere o novo no right
+
 from collections import deque
 class No:
     def __init__(self, valor):

@@ -25,6 +25,7 @@ class No:
         self.val=valor
 
 # DFS EM ORDEM
+# Resultado: 5 3 2 4
 def dfs_em_ordem(no):
     if no is None:
         return
@@ -32,6 +33,7 @@ def dfs_em_ordem(no):
     print(no.val, end=' ')
     dfs_em_ordem(no.right)
 # DFS PRE ORDEM
+# Resultado: 2 3 5 4
 def dfs_pre_ordem(no):
     if no is None:
         return
@@ -40,6 +42,7 @@ def dfs_pre_ordem(no):
     dfs_pre_ordem(no.right)
 
 # DFS POS ORDEM
+# Resultado: 5 4 3 2
 def dfs_pos_ordem(no):
     if no is None:
         return
@@ -48,6 +51,7 @@ def dfs_pos_ordem(no):
     print(no.val, end=' ')
 
 # BFS
+# Resultado: 2 3 4 5
 def bfs(root):
     if root is None:
         return
